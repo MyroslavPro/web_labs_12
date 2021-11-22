@@ -1,0 +1,37 @@
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    align-items: center;
+    color: #4e597c;
+    font-weight:normal;
+    width: fit-content;
+    margin-left: 150px auto;
+    margin-right: 150px auto;
+    padding-top: 38px;
+}
+
+.header__nav ul {
+    display: flex;
+}
+
+
+.header__nav_sign-in{
+    font-weight: 500;
+    color: #0B132A;
+    margin-right: 30px;
+}
+
+.header__nav-item {
+    margin-right: 60px;
+}
+
+.header_button_sign-up {
+    height: 45px;
+    width: 150px;
+    border-radius: 50px;
+    border: 1px solid #F53855;
+    box-sizing: border-box;
+    color: #F53855;
+    background-color: #fff;
+}
