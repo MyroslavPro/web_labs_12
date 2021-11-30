@@ -1,0 +1,103 @@
+body {
+    background: #fff;
+    font-family: "Roboto", "Rubik", sans-serif;
+    font-weight: normal;
+    font-size: normal;
+    background-color: #fff;
+}
+
+
+@media screen and (max-width: 800px) {
+  body{
+    align-items: center;
+  }
+}
+
+
+  
+.container {
+    background-color: #fff;
+    margin: 0 auto;
+    max-width: 1110px;
+}
+
+a {
+    text-decoration: none;
+    color: #4F5665;
+  }
+
+li {
+    display: block;
+}
+
+h1{
+  font-family: "Rubik";
+}
+
+p{
+  font-family: "Roboto", "Rubik", sans-serif;
+  color: #4F5665;
+}
+
+.logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #0B132A;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23,7px;
+}
+
+
+.red_button_with_shades{
+  background-color: #F53838;
+	color: white;
+	border-radius: 8px;
+  font-weight: bolder;
+  
+	width: 16em;
+	padding: 1.5em;
+	box-shadow: 0 50px 50px -20px rgba(245, 56, 56, 0.35);
+  
+}
+li a:hover{
+  animation-timing-function: ease-in-out;
+  color: radial-gradient(circle at 70% 80%, transparent, #4d0019);
+  animation: background-gradient 1s;
+}
+
+@keyframes background-gradient {
+  0% {
+    background-color: #F53838;
+  }
+  25% {
+    background-color: #ff0000;;
+  }
+}
+
+
+.horizontal-container{
+  margin: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.icon {
+	width: 20px;
+	height: 20px;
+  background-color: white;
+}
+
+.icon-ref>img {
+	width: 5em;
+	height: auto;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+}

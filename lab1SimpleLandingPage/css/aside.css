@@ -1,0 +1,24 @@
+aside {
+    display: flex;
+	flex-direction: row;
+	position: fixed;
+	background-color: white;
+	width: 90%;
+	left: 5%;
+	right: 5%;
+	bottom: 12%;
+	padding: 1em;
+	border: 2px solid #f6f5c4;
+
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 0.5em;
+	background-color:gradient linear-gradient(180deg, #F6F5F5 -45.04%, #a0a08e 19.67%, #F4F3F3 88.56%);
+}
+
+@media screen and (max-width: 800px) {
+	aside {
+		display: none;
+	}
+		
+}

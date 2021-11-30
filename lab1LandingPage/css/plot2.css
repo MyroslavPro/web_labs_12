@@ -1,0 +1,42 @@
+.plot2 {
+    background-color: #FFF;
+}
+.conteiner2{
+    
+	margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    text-align: center;
+}
+
+.reviews{
+    display: flex;
+	flex-direction: row;
+	justify-content:space-between ;
+	align-items: center;
+    margin-top: 60px;
+}
+
+review{
+   	width: 350px;
+   	height: 230px;
+	margin: 2em;
+	background-color:#FFFFFF;
+	border: 1px solid lightgrey;
+	border-radius: 10px;
+	text-align: left;	
+}
+review p{
+	color:#0B132A;
+	margin-left:1em;
+	margin-right:1em;
+	align-self: center;
+	line-height: 30px;
+}
+
+review horizontal{
+	display: flex;
+	flex-direction: row;
+}
